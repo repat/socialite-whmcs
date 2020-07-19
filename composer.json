@@ -1,0 +1,19 @@
+{
+    "name": "repat/socialite-whmcs",
+    "description": "WHMCS OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [{
+        "name": "repat",
+        "email": "repat@repat.de"
+    }],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~2.0 || ~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Repat\\Whmcs\\": "src"
+        }
+    }
+}
